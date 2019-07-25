@@ -12,8 +12,6 @@ class Actor < ActiveRecord::Base
     end 
   end
   
-  def actors_list 
-    
-  end 
+
   
 end
