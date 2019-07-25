@@ -5,9 +5,13 @@ class Show < ActiveRecord::Base
   
   def actors_list 
    # binding.pry
-    self.actors collect do |actor|
+    self.actors.collect do |actor|
       actor.full_name
     end 
   end
   
+  
+  def actors_list
+    self.actors.map{|actor| actor.full_name}
+  end
 end
