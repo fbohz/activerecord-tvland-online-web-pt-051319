@@ -9,4 +9,6 @@ class Character < ActiveRecord::Base
   def build_show(name:)
     
   end 
+  
+  
 end
