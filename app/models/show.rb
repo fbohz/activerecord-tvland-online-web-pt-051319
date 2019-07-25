@@ -3,6 +3,6 @@ class Show < ActiveRecord::Base
   belongs_to :network
   has_many :actors, through: :characters
   
-  def actors_list 
+  def self.actors_list 
   end 
 end
