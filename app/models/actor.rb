@@ -12,7 +12,7 @@ class Actor < ActiveRecord::Base
     end 
   end
   
-    def self.actors_list 
+  def self.actors_list 
   end 
   
 end
