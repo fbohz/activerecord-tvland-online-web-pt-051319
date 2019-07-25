@@ -5,8 +5,8 @@ class Show < ActiveRecord::Base
   
   def actors_list 
     binding.pry
-    characters each do |character|
-      "#{character.actor}"
+    actors each do |actor|
+      "#{actor.name}"
     end 
   end
 end
